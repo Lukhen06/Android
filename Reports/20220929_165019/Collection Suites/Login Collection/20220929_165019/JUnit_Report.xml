@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Collection" time="116.101" tests="2" failures="0" errors="0">
+   <testsuite name="Login Suite" tests="1" failures="0" errors="0" time="38.56" skipped="0" timestamp="2022-09-29 16:50:41" hostname="lukhenthiran.t - 02-47B7BH2-NB.dialogasia.com" id="Test Suites/Test Suites/Login Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lukhenthiran.t.DIALOGASIA\\git\\Test_Katalon_Project\\Android\\Reports\\20220929_165019\\Test Suites\\Login Suite\\20220929_165021"/>
+         <property name="logFiles" value="C:\\Users\\lukhenthiran.t.DIALOGASIA\\git\\Test_Katalon_Project\\Android\\Reports\\20220929_165019\\Test Suites\\Login Suite\\20220929_165021\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lukhenthiran.t - 02-47B7BH2-NB.dialogasia.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="16ba64ec77a8eb6015bde2e6d0dbed0c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case" time="37.828" classname="Test Cases/Login Test Case" status="PASSED">
+         <system-out><![CDATA[2022-09-29 16:50:41 - [TEST_CASE][PASSED] - Test Cases/Login Test Case: Test Cases/Login Test Case
+
+2022-09-29 16:50:43 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2022-09-29 16:50:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-29 16:50:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-29 16:51:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2022-09-29 16:51:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-09-29 16:51:17 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-09-29 16:51:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-09-29 16:51:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-09-29 16:51:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-09-29 16:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-09-29 16:51:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-29 16:51:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-29 16:50:41 - [TEST_SUITE][PASSED] - Login Suite: Test Cases/Login Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Purchase Suite" tests="1" failures="0" errors="0" time="44.983" skipped="0" timestamp="2022-09-29 16:51:36" hostname="lukhenthiran.t - 02-47B7BH2-NB.dialogasia.com" id="Test Suites/Test Suites/Purchase Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lukhenthiran.t.DIALOGASIA\\git\\Test_Katalon_Project\\Android\\Reports\\20220929_165019\\Test Suites\\Purchase Suite\\20220929_165023"/>
+         <property name="logFiles" value="C:\\Users\\lukhenthiran.t.DIALOGASIA\\git\\Test_Katalon_Project\\Android\\Reports\\20220929_165019\\Test Suites\\Purchase Suite\\20220929_165023\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lukhenthiran.t - 02-47B7BH2-NB.dialogasia.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="205345f5544c028bf243c9de3cfa1ec6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Purchase Test Case" time="44.34" classname="Test Cases/Purchase Test Case" status="PASSED">
+         <system-out><![CDATA[2022-09-29 16:51:37 - [TEST_CASE][PASSED] - Test Cases/Purchase Test Case: Test Cases/Purchase Test Case
+
+2022-09-29 16:51:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-29 16:51:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-29 16:51:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-29 16:52:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-29 16:52:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-09-29 16:52:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2022-09-29 16:52:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-09-29 16:52:12 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2022-09-29 16:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/div_Password for all userssecret_sauce")): Object: 'Object Repository/Purchase Objects/Page_Swag Labs/div_Password for all userssecret_sauce' is clicked on
+
+2022-09-29 16:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase Objects/Page_Swag Labs/div_Password for all userssecret_sauce' is clicked on
+
+2022-09-29 16:52:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-09-29 16:52:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2022-09-29 16:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-09-29 16:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase Objects/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2022-09-29 16:52:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Purchase Objects/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-09-29 16:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase Objects/Page_Swag Labs/button_Add to cart' is clicked on
+
+2022-09-29 16:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/a_1")): Object: 'Object Repository/Purchase Objects/Page_Swag Labs/a_1' is clicked on
+
+2022-09-29 16:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase Objects/Page_Swag Labs/a_1' is clicked on
+
+2022-09-29 16:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/Purchase Objects/Page_Swag Labs/button_Checkout' is clicked on
+
+2022-09-29 16:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase Objects/Page_Swag Labs/button_Checkout' is clicked on
+
+2022-09-29 16:52:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_firstName"), "Lukhen"): Text 'Lukhen' is set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2022-09-29 16:52:17 - [MESSAGE][PASSED] - Text 'Lukhen' is set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2022-09-29 16:52:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_lastName"), "Thiran"): Text 'Thiran' is set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2022-09-29 16:52:18 - [MESSAGE][PASSED] - Text 'Thiran' is set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2022-09-29 16:52:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_postalCode"), "435000"): Text '435000' is set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2022-09-29 16:52:19 - [MESSAGE][PASSED] - Text '435000' is set on object 'Object Repository/Purchase Objects/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2022-09-29 16:52:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/input_Cancel_continue")): Object: 'Object Repository/Purchase Objects/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2022-09-29 16:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase Objects/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2022-09-29 16:52:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/button_Finish")): Object: 'Object Repository/Purchase Objects/Page_Swag Labs/button_Finish' is clicked on
+
+2022-09-29 16:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase Objects/Page_Swag Labs/button_Finish' is clicked on
+
+2022-09-29 16:52:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Purchase Objects/Page_Swag Labs/button_Back Home")): Object: 'Object Repository/Purchase Objects/Page_Swag Labs/button_Back Home' is clicked on
+
+2022-09-29 16:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase Objects/Page_Swag Labs/button_Back Home' is clicked on
+
+2022-09-29 16:52:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-29 16:52:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-29 16:51:36 - [TEST_SUITE][PASSED] - Purchase Suite: Test Cases/Purchase Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

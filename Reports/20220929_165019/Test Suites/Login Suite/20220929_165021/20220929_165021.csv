@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Suite,Chrome 105.0.0.0,,,2022-09-29 16:50:41,2022-09-29 16:51:19,38.560s,PASSED
+,,,,,,,
+Test Cases/Login Test Case,Chrome 105.0.0.0,,,2022-09-29 16:50:41,2022-09-29 16:51:19,37.828s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 105.0.0.0,,,2022-09-29 16:50:43,2022-09-29 16:51:15,32.521s,PASSED
+"setText(findTestObject(""Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Chrome 105.0.0.0,,,2022-09-29 16:51:15,2022-09-29 16:51:17,1.558s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 105.0.0.0,,,2022-09-29 16:51:17,2022-09-29 16:51:17,0.813s,PASSED
+"click(findTestObject(""Object Repository/Login Objects/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 105.0.0.0,,,2022-09-29 16:51:17,2022-09-29 16:51:18,0.817s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-29 16:51:18,2022-09-29 16:51:19,1.107s,PASSED
